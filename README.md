@@ -1,16 +1,41 @@
-## Hi there 👋
+# 👋 Hi, I'm Gopi Choudhary
 
-<!--
-**gopigkc1910-commits/gopigkc1910-commits** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+### 🤖 Machine Learning & AI Developer | CSE at NIT Sikkim
 
-Here are some ideas to get you started:
+Passionate about Machine Learning Systems, Transformer Architectures, LLM Fine-Tuning, and MLOps. Currently pursuing Computer Science Engineering at NIT Sikkim.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+---
+
+## 🛠️ Tech Stack & Skills
+
+![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
+![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
+![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
+![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
+![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+
+---
+
+## 🌟 Featured Machine Learning Projects
+
+* 🧠 **[nanoGPT](https://github.com/gopigkc1910-commits/nanoGPT)** – Lightweight, high-speed PyTorch implementation of GPT model pretraining and fine-tuning.
+* ⚙️ **[Made-With-ML](https://github.com/gopigkc1910-commits/Made-With-ML)** – Production-grade ML application engineering with FastAPI, Docker, and MLflow tracking.
+* 🚀 **[First Open Source Contributions](https://github.com/gopigkc1910-commits/first-contributions)** – Active contributor to open source projects ([View PR #125129](https://github.com/firstcontributions/first-contributions/pull/125129)).
+
+---
+
+## 📊 GitHub Stats
+
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=gopigkc1910-commits&show_icons=true&theme=radical" alt="GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gopigkc1910-commits&layout=compact&theme=radical" alt="Top Languages" width="48%" />
+</p>
+
+---
+
+## 📬 Connect With Me
+
+* 📧 **Email**: [gopigkc1910@gmail.com](mailto:gopigkc1910@gmail.com)
+* 🎓 **Institution**: National Institute of Technology (NIT) Sikkim
