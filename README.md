@@ -40,3 +40,4 @@ Passionate about Machine Learning Systems, Transformer Architectures, LLM Fine-T
 * 📧 **Email**: [gopigkc1910@gmail.com](mailto:gopigkc1910@gmail.com)
 * 🎓 **Institution**: National Institute of Technology (NIT) Sikkim
 <!-- GitHub Profile README updated for achievement badge -->
+<!-- Unlocking Pull Shark Badge -->
