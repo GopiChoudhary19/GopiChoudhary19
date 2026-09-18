@@ -6,7 +6,7 @@ Passionate about Machine Learning Systems, Transformer Architectures, LLM Fine-T
 
 ---
 
-## 🛠️ Tech Stack & Skills
+## 🛠️ Tech Stack & Tools
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
@@ -26,11 +26,17 @@ Passionate about Machine Learning Systems, Transformer Architectures, LLM Fine-T
 
 ---
 
-## 📊 GitHub Stats
+## 📊 Live GitHub Profile Stats
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=gopigkc1910-commits&show_icons=true&theme=radical" alt="GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gopigkc1910-commits&layout=compact&theme=radical" alt="Top Languages" width="48%" />
+  <img src="https://img.shields.io/github/repos/personal/gopigkc1910-commits?label=Public%20Repositories&style=for-the-badge&color=009688&logo=github" alt="Repositories" />
+  <img src="https://img.shields.io/github/stars/gopigkc1910-commits?label=Starred%20Repos&style=for-the-badge&color=FF6F00&logo=github" alt="Stars" />
+  <img src="https://img.shields.io/github/followers/gopigkc1910-commits?label=Followers&style=for-the-badge&color=2496ED&logo=github" alt="Followers" />
+</p>
+
+<p align="center">
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=gopigkc1910-commits&show_icons=true&theme=radical&include_all_commits=true&count_private=true" alt="Gopi's GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=gopigkc1910-commits&layout=compact&theme=radical" alt="Top Languages" width="48%" />
 </p>
 
 ---
@@ -39,5 +45,3 @@ Passionate about Machine Learning Systems, Transformer Architectures, LLM Fine-T
 
 * 📧 **Email**: [gopigkc1910@gmail.com](mailto:gopigkc1910@gmail.com)
 * 🎓 **Institution**: National Institute of Technology (NIT) Sikkim
-<!-- GitHub Profile README updated for achievement badge -->
-<!-- Unlocking Pull Shark Badge -->
