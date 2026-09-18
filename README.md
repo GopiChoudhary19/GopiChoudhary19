@@ -6,11 +6,10 @@ Passionate about Machine Learning Systems, Transformer Architectures, LLM Fine-T
 
 ---
 
-## 🛠️ Tech Stack & Tools
+## 🛠️ Tech Stack & Core Competencies
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
-![TensorFlow](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 ![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
@@ -20,9 +19,24 @@ Passionate about Machine Learning Systems, Transformer Architectures, LLM Fine-T
 
 ## 🌟 Featured Machine Learning Projects
 
-* 🧠 **[nanoGPT](https://github.com/gopigkc1910-commits/nanoGPT)** – Lightweight, high-speed PyTorch implementation of GPT model pretraining and fine-tuning.
-* ⚙️ **[Made-With-ML](https://github.com/gopigkc1910-commits/Made-With-ML)** – Production-grade ML application engineering with FastAPI, Docker, and MLflow tracking.
-* 🚀 **[First Open Source Contributions](https://github.com/gopigkc1910-commits/first-contributions)** – Active contributor to open source projects ([View PR #125129](https://github.com/firstcontributions/first-contributions/pull/125129)).
+### 🧠 1. [mini-gpt-from-scratch](https://github.com/gopigkc1910-commits/mini-gpt-from-scratch)
+> **Original PyTorch implementation of Decoder-Only Transformer (GPT) Architecture**
+* **Engineering Highlights**: Causal Multi-Head Self-Attention, Positional Encoding, GELU feedforward blocks, and AdamW optimizer with cosine decay.
+* **Tech Stack**: PyTorch, Python, NumPy
+* 🔗 **Repository**: [github.com/gopigkc1910-commits/mini-gpt-from-scratch](https://github.com/gopigkc1910-commits/mini-gpt-from-scratch)
+
+---
+
+### ⚙️ 2. [ml-model-serving-api](https://github.com/gopigkc1910-commits/ml-model-serving-api)
+> **Production-grade, containerized REST API for real-time model inference**
+* **Engineering Highlights**: FastAPI routing, Pydantic request/response validation, PyTorch inference pipeline, `pytest` unit test suite, and Docker containerization.
+* **Tech Stack**: FastAPI, PyTorch, Docker, Pydantic, pytest
+* 🔗 **Repository**: [github.com/gopigkc1910-commits/ml-model-serving-api](https://github.com/gopigkc1910-commits/ml-model-serving-api)
+
+---
+
+### 🚀 3. [Open Source Contributions](https://github.com/gopigkc1910-commits/first-contributions)
+* Active open-source contributor ([View PR #125129 on first-contributions](https://github.com/firstcontributions/first-contributions/pull/125129)).
 
 ---
 
