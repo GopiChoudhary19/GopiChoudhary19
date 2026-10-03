@@ -84,7 +84,7 @@ Passionate about Machine Learning Systems, Transformer Architectures, LLM Fine-T
 ## 📊 Live GitHub Profile Stats
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=GopiChoudhary19&color=009688&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
+  <img src="https://img.shields.io/badge/Status-Open%20to%20Collaborations-009688?style=for-the-badge&logo=github&logoColor=white" alt="Status" />
   <img src="https://img.shields.io/github/followers/GopiChoudhary19?label=Followers&style=for-the-badge&color=2496ED&logo=github" alt="Followers" />
 </p>
 
