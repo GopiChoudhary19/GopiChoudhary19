@@ -4,9 +4,6 @@
 
 Passionate about Machine Learning Systems, Transformer Architectures, LLM Fine-Tuning, and MLOps. Currently pursuing Computer Science Engineering at NIT Sikkim.
 
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=GopiChoudhary19&theme=radical&no-frame=true&no-bg=true&margin-w=4" alt="Gopi's Trophies" />
-</p>
 
 ---
 
