@@ -35,7 +35,23 @@ Passionate about Machine Learning Systems, Transformer Architectures, LLM Fine-T
 
 ---
 
-### 🚀 3. [Open Source Contributions](https://github.com/GopiChoudhary19/first-contributions)
+### 💼 3. [Intern-tracker](https://github.com/GopiChoudhary19/Intern-tracker)
+> **Full-Stack Opportunity & Internship Discovery Platform**
+* **Engineering Highlights**: Next.js 15 frontend, FastAPI REST backend, PostgreSQL relational schema, Redis caching, and Docker Compose orchestration.
+* **Tech Stack**: Next.js, React, TypeScript, FastAPI, PostgreSQL, Redis, Docker
+* 🔗 **Repository**: [github.com/GopiChoudhary19/Intern-tracker](https://github.com/GopiChoudhary19/Intern-tracker)
+
+---
+
+### 🎓 4. [EduPath](https://github.com/GopiChoudhary19/EduPath)
+> **Smart Education & Career Assessment Web Platform**
+* **Engineering Highlights**: Interactive student career assessment engine, course-to-major mapping, college directory, and AI academic chatbot.
+* **Tech Stack**: React, JavaScript, Three.js, CSS3
+* 🔗 **Repository**: [github.com/GopiChoudhary19/EduPath](https://github.com/GopiChoudhary19/EduPath)
+
+---
+
+### 🚀 5. [Open Source Contributions](https://github.com/GopiChoudhary19/first-contributions)
 * Active open-source contributor ([View PR #125129 on first-contributions](https://github.com/firstcontributions/first-contributions/pull/125129)).
 
 ---
