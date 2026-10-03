@@ -19,23 +19,23 @@ Passionate about Machine Learning Systems, Transformer Architectures, LLM Fine-T
 
 ## 🌟 Featured Machine Learning Projects
 
-### 🧠 1. [mini-gpt-from-scratch](https://github.com/gopigkc1910-commits/mini-gpt-from-scratch)
+### 🧠 1. [mini-gpt-from-scratch](https://github.com/GopiChoudhary19/mini-gpt-from-scratch)
 > **Original PyTorch implementation of Decoder-Only Transformer (GPT) Architecture**
 * **Engineering Highlights**: Causal Multi-Head Self-Attention, Positional Encoding, GELU feedforward blocks, and AdamW optimizer with cosine decay.
 * **Tech Stack**: PyTorch, Python, NumPy
-* 🔗 **Repository**: [github.com/gopigkc1910-commits/mini-gpt-from-scratch](https://github.com/gopigkc1910-commits/mini-gpt-from-scratch)
+* 🔗 **Repository**: [github.com/GopiChoudhary19/mini-gpt-from-scratch](https://github.com/GopiChoudhary19/mini-gpt-from-scratch)
 
 ---
 
-### ⚙️ 2. [ml-model-serving-api](https://github.com/gopigkc1910-commits/ml-model-serving-api)
+### ⚙️ 2. [ml-model-serving-api](https://github.com/GopiChoudhary19/ml-model-serving-api)
 > **Production-grade, containerized REST API for real-time model inference**
 * **Engineering Highlights**: FastAPI routing, Pydantic request/response validation, PyTorch inference pipeline, `pytest` unit test suite, and Docker containerization.
 * **Tech Stack**: FastAPI, PyTorch, Docker, Pydantic, pytest
-* 🔗 **Repository**: [github.com/gopigkc1910-commits/ml-model-serving-api](https://github.com/gopigkc1910-commits/ml-model-serving-api)
+* 🔗 **Repository**: [github.com/GopiChoudhary19/ml-model-serving-api](https://github.com/GopiChoudhary19/ml-model-serving-api)
 
 ---
 
-### 🚀 3. [Open Source Contributions](https://github.com/gopigkc1910-commits/first-contributions)
+### 🚀 3. [Open Source Contributions](https://github.com/GopiChoudhary19/first-contributions)
 * Active open-source contributor ([View PR #125129 on first-contributions](https://github.com/firstcontributions/first-contributions/pull/125129)).
 
 ---
@@ -43,13 +43,13 @@ Passionate about Machine Learning Systems, Transformer Architectures, LLM Fine-T
 ## 📊 Live GitHub Profile Stats
 
 <p align="center">
-  <img src="https://komarev.com/ghpvc/?username=gopigkc1910-commits&color=009688&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
-  <img src="https://img.shields.io/github/followers/gopigkc1910-commits?label=Followers&style=for-the-badge&color=2496ED&logo=github" alt="Followers" />
+  <img src="https://komarev.com/ghpvc/?username=GopiChoudhary19&color=009688&style=for-the-badge&label=PROFILE+VIEWS" alt="Profile Views" />
+  <img src="https://img.shields.io/github/followers/GopiChoudhary19?label=Followers&style=for-the-badge&color=2496ED&logo=github" alt="Followers" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=gopigkc1910-commits&show_icons=true&theme=radical&include_all_commits=true" alt="Gopi's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=gopigkc1910-commits&layout=compact&theme=radical" alt="Top Languages" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api?username=GopiChoudhary19&show_icons=true&theme=radical&include_all_commits=true" alt="Gopi's GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GopiChoudhary19&layout=compact&theme=radical" alt="Top Languages" width="48%" />
 </p>
 
 ---
