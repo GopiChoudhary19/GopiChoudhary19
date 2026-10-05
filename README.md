@@ -1,9 +1,35 @@
-# 👋 Hi, I'm Gopi Choudhary
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:fe428e&height=220&section=header&text=Gopi%20Choudhary&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Machine%20Learning%20%26%20AI%20Developer%20%7C%20CSE%20@%20NIT%20Sikkim&descSize=18&descColor=a9fef7&descAlignY=55" width="100%" />
 
-### 🤖 Machine Learning & AI Developer | CSE at NIT Sikkim
+<p align="center">
+  <a href="https://github.com/GopiChoudhary19">
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FE428E&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Building+ML+Systems+%26+Transformer+Architectures;Full-Stack+Developer+%7C+Open+Source+Contributor;Always+Learning%2C+Always+Building+%F0%9F%9A%80" alt="Typing SVG" />
+  </a>
+</p>
 
-Passionate about Machine Learning Systems, Transformer Architectures, LLM Fine-Tuning, and MLOps. Currently pursuing Computer Science Engineering at NIT Sikkim.
+<p align="center">
+  <a href="mailto:gopigkc1910@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
+  <a href="https://github.com/GopiChoudhary19"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
+  <a href="https://www.linkedin.com/in/gopi-choudhary/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <img src="https://komarev.com/ghpvc/?username=GopiChoudhary19&style=for-the-badge&color=fe428e&label=Profile+Views" alt="Profile Views" />
+</p>
 
+---
+
+## 🧑‍💻 About Me
+
+```yaml
+name: Gopi Choudhary
+role: Machine Learning & AI Developer
+institution: National Institute of Technology (NIT) Sikkim
+location: India 🇮🇳
+interests:
+  - Transformer Architectures & LLM Fine-Tuning
+  - ML Systems & MLOps
+  - Full-Stack Web Development
+  - Open Source Contributions
+currently_learning: Advanced Deep Learning & Distributed Systems
+open_to: Collaborations, Research, and Internship Opportunities
+```
 
 ---
 
@@ -44,74 +70,105 @@ Passionate about Machine Learning Systems, Transformer Architectures, LLM Fine-T
 
 ## 🌟 Featured Projects
 
-### 🧠 1. [mini-gpt-from-scratch](https://github.com/GopiChoudhary19/mini-gpt-from-scratch)
+<table>
+<tr>
+<td width="50%">
+
+### 🧠 [mini-gpt-from-scratch](https://github.com/GopiChoudhary19/mini-gpt-from-scratch)
 > **Original PyTorch implementation of Decoder-Only Transformer (GPT) Architecture**
-* **Engineering Highlights**: Causal Multi-Head Self-Attention, Positional Encoding, GELU feedforward blocks, and AdamW optimizer with cosine decay.
-* **Tech Stack**: `PyTorch` `Python` `NumPy`
-* 🔗 **Repository**: [github.com/GopiChoudhary19/mini-gpt-from-scratch](https://github.com/GopiChoudhary19/mini-gpt-from-scratch)
 
----
+🔹 Causal Multi-Head Self-Attention, Positional Encoding, GELU feedforward blocks  
+🔹 AdamW optimizer with cosine decay scheduling  
+🔹 **Tech:** `PyTorch` `Python` `NumPy`
 
-### ⚙️ 2. [ml-model-serving-api](https://github.com/GopiChoudhary19/ml-model-serving-api)
+</td>
+<td width="50%">
+
+### ⚙️ [ml-model-serving-api](https://github.com/GopiChoudhary19/ml-model-serving-api)
 > **Production-grade, containerized REST API for real-time model inference**
-* **Engineering Highlights**: FastAPI routing, Pydantic request/response validation, PyTorch inference pipeline, `pytest` unit test suite, and Docker containerization.
-* **Tech Stack**: `FastAPI` `PyTorch` `Docker` `Pydantic` `pytest`
-* 🔗 **Repository**: [github.com/GopiChoudhary19/ml-model-serving-api](https://github.com/GopiChoudhary19/ml-model-serving-api)
 
----
+🔹 FastAPI routing with Pydantic request/response validation  
+🔹 PyTorch inference pipeline with `pytest` test suite  
+🔹 **Tech:** `FastAPI` `PyTorch` `Docker` `Pydantic`
 
-### 💼 3. [Intern-tracker](https://github.com/GopiChoudhary19/Intern-tracker)
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+### 💼 [Intern-tracker](https://github.com/GopiChoudhary19/Intern-tracker)
 > **Full-Stack Opportunity & Internship Discovery Platform**
-* **Engineering Highlights**: Next.js 15 frontend, FastAPI REST backend, PostgreSQL relational schema, Redis caching, and Docker Compose orchestration.
-* **Tech Stack**: `Next.js` `React` `TypeScript` `FastAPI` `PostgreSQL` `Redis` `Docker`
-* 🔗 **Repository**: [github.com/GopiChoudhary19/Intern-tracker](https://github.com/GopiChoudhary19/Intern-tracker)
 
----
+🔹 Next.js 15 frontend + FastAPI REST backend  
+🔹 PostgreSQL relational schema with Redis caching  
+🔹 **Tech:** `Next.js` `TypeScript` `FastAPI` `PostgreSQL` `Redis` `Docker`
 
-### 🎓 4. [EduPath](https://github.com/GopiChoudhary19/EduPath)
+</td>
+<td width="50%">
+
+### 🎓 [EduPath](https://github.com/GopiChoudhary19/EduPath)
 > **Smart Education & Career Assessment Web Platform**
-* **Engineering Highlights**: Interactive student career assessment engine, course-to-major mapping, college directory, and AI academic chatbot.
-* **Tech Stack**: `React` `JavaScript` `Three.js` `CSS3`
-* 🔗 **Repository**: [github.com/GopiChoudhary19/EduPath](https://github.com/GopiChoudhary19/EduPath)
+
+🔹 Interactive student career assessment engine  
+🔹 Course-to-major mapping, college directory, AI chatbot  
+🔹 **Tech:** `React` `JavaScript` `Three.js` `CSS3`
+
+</td>
+</tr>
+</table>
+
+### 🚀 Open Source Contributions
+Active open-source contributor — [View PR #125129 on first-contributions](https://github.com/firstcontributions/first-contributions/pull/125129)
 
 ---
 
-### 🚀 5. [Open Source Contributions](https://github.com/GopiChoudhary19/first-contributions)
-* Active open-source contributor ([View PR #125129 on first-contributions](https://github.com/firstcontributions/first-contributions/pull/125129)).
-
----
-
-## 📊 Live GitHub Profile Stats
+## 📊 GitHub Stats
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Open%20to%20Collaborations-009688?style=for-the-badge&logo=github&logoColor=white" alt="Status" />
-  <img src="https://img.shields.io/github/followers/GopiChoudhary19?label=Followers&style=for-the-badge&color=2496ED&logo=github" alt="Followers" />
+  <img src="https://github-readme-stats.vercel.app/api?username=GopiChoudhary19&show_icons=true&theme=radical&include_all_commits=true&hide_border=true&bg_color=0d1117" alt="Gopi's GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GopiChoudhary19&layout=compact&theme=radical&hide_border=true&bg_color=0d1117" alt="Top Languages" width="48%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=GopiChoudhary19&show_icons=true&theme=radical&include_all_commits=true" alt="Gopi's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GopiChoudhary19&layout=compact&theme=radical" alt="Top Languages" width="48%" />
+  <img src="https://streak-stats.demolab.com/?user=GopiChoudhary19&theme=radical&hide_border=true&background=0d1117" alt="GitHub Streak" width="70%" />
 </p>
 
 <p align="center">
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=GopiChoudhary19&theme=radical" alt="GitHub Streak" width="97%" />
+  <img src="https://github-profile-trophy.vercel.app/?username=GopiChoudhary19&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=5" alt="GitHub Trophies" width="90%" />
 </p>
 
 ---
 
-## 📬 Connect With Me
+## 📈 Contribution Graph
 
-<p align="left">
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=GopiChoudhary19&theme=redical&hide_border=true&bg_color=0d1117&color=fe428e&line=a9fef7&point=fe428e" alt="Contribution Graph" width="95%" />
+</p>
+
+---
+
+## 📬 Let's Connect
+
+<p align="center">
   <a href="mailto:gopigkc1910@gmail.com">
-    <img src="https://img.shields.io/badge/Email-gopigkc1910%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/📧_Email_Me-gopigkc1910@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://github.com/GopiChoudhary19">
-    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/🐙_Follow_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   <a href="https://www.linkedin.com/in/gopi-choudhary/">
-    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/💼_Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </p>
 
-* 🎓 **Institution**: National Institute of Technology (NIT) Sikkim
-* 📍 **Location**: India
+<p align="center">
+  <img src="https://img.shields.io/badge/🎓_NIT_Sikkim-CSE-009688?style=for-the-badge" alt="Institution" />
+  <img src="https://img.shields.io/badge/📍_India-FF9933?style=for-the-badge" alt="Location" />
+  <img src="https://img.shields.io/badge/Status-Open_to_Collaborations-00c853?style=for-the-badge&logo=github&logoColor=white" alt="Status" />
+</p>
+
+---
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:fe428e&height=120&section=footer" width="100%" />
+</p>
