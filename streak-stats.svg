@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 195" width="495px" height="195px">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0e1017"/>
+      <stop offset="100%" stop-color="#141321"/>
+    </linearGradient>
+    <linearGradient id="pinkGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fe428e"/>
+      <stop offset="100%" stop-color="#ff6b9d"/>
+    </linearGradient>
+    <linearGradient id="topBorder" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#fe428e"/>
+      <stop offset="50%" stop-color="#a855f7"/>
+      <stop offset="100%" stop-color="#a9fef7"/>
+    </linearGradient>
+  </defs>
+
+  <style>
+    .val {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 28px;
+      font-weight: 800;
+      fill: #fe428e;
+    }
+    .label {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 13px;
+      font-weight: 600;
+      fill: #a9fef7;
+      letter-spacing: 0.3px;
+    }
+    .sub {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+      font-size: 11px;
+      font-weight: 500;
+      fill: #8b949e;
+    }
+    .ring {
+      fill: none;
+      stroke: #fe428e;
+      stroke-width: 4;
+      stroke-linecap: round;
+    }
+    .ring-bg {
+      fill: none;
+      stroke: #2a2b40;
+      stroke-width: 4;
+    }
+  </style>
+
+  <!-- Background -->
+  <rect width="495" height="195" rx="8" fill="url(#cardBg)"/>
+  <rect width="495" height="195" rx="8" fill="none" stroke="#252736" stroke-width="1.5"/>
+  <rect x="0" y="0" width="495" height="3" rx="1.5" fill="url(#topBorder)"/>
+
+  <!-- Column Dividers -->
+  <line x1="165" y1="25" x2="165" y2="170" stroke="#212433" stroke-width="1.5"/>
+  <line x1="330" y1="25" x2="330" y2="170" stroke="#212433" stroke-width="1.5"/>
+
+  <!-- Left Column: Total Contributions -->
+  <g transform="translate(82.5, 0)">
+    <!-- Ring / Icon Indicator -->
+    <circle cx="0" cy="52" r="22" class="ring-bg"/>
+    <circle cx="0" cy="52" r="22" class="ring" stroke-dasharray="100, 138"/>
+    <!-- Contribution Layers Icon -->
+    <path d="M -8,52 L 0,47 L 8,52 L 0,57 Z M -8,56 L 0,61 L 8,56 M -8,60 L 0,65 L 8,60" fill="none" stroke="#fe428e" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
+
+    <text x="0" y="105" text-anchor="middle" class="val">100</text>
+    <text x="0" y="132" text-anchor="middle" class="label">Total Contributions</text>
+    <text x="0" y="156" text-anchor="middle" class="sub">Mar 27, 2026 - Present</text>
+  </g>
+
+  <!-- Middle Column: Current Streak (Featured) -->
+  <g transform="translate(247.5, 0)">
+    <!-- Fire Ring -->
+    <circle cx="0" cy="52" r="24" class="ring-bg"/>
+    <circle cx="0" cy="52" r="24" class="ring" stroke="url(#pinkGrad)" stroke-width="4.5" stroke-dasharray="125, 150"/>
+    <!-- Fire Icon -->
+    <path d="M 0,40 C 3,45 6,48 6,52 C 6,57 2,61 -1,61 C -4,61 -7,58 -7,54 C -7,49 -4,46 -3,43 C -1,46 0,49 1,51 C 2,49 1,44 0,40 Z" fill="#fe428e"/>
+    <path d="M 0,49 C 1,51 2,53 2,55 C 2,57 0,59 -1,59 C -2,59 -4,58 -4,56 C -4,54 -2,52 -1,51 Z" fill="#a9fef7"/>
+
+    <text x="0" y="105" text-anchor="middle" class="val">3 Days</text>
+    <text x="0" y="132" text-anchor="middle" class="label">Current Streak</text>
+    <text x="0" y="156" text-anchor="middle" class="sub">Oct 03 - Oct 05</text>
+  </g>
+
+  <!-- Right Column: Longest Streak -->
+  <g transform="translate(412.5, 0)">
+    <!-- Trophy Ring -->
+    <circle cx="0" cy="52" r="22" class="ring-bg"/>
+    <circle cx="0" cy="52" r="22" class="ring" stroke-dasharray="115, 138"/>
+    <!-- Lightning Bolt / Star Icon -->
+    <path d="M 1,42 L -6,53 L -1,53 L -2,62 L 6,50 L 1,50 Z" fill="#fe428e"/>
+
+    <text x="0" y="105" text-anchor="middle" class="val">7 Days</text>
+    <text x="0" y="132" text-anchor="middle" class="label">Longest Streak</text>
+    <text x="0" y="156" text-anchor="middle" class="sub">Mar 27 - Apr 02</text>
+  </g>
+</svg>

@@ -1,9 +1,10 @@
-<!-- Header Banner -->
-![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=header&text=Gopi%20Choudhary&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Machine%20Learning%20%26%20AI%20Developer%20%7C%20CSE%20%40%20NIT%20Sikkim&descSize=16&descColor=ffffff&descAlignY=55)
+<p align="center">
+  <img src="./header.svg" width="100%" alt="Gopi Choudhary" />
+</p>
 
 <p align="center">
   <a href="https://github.com/GopiChoudhary19">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=FE428E&center=true&vCenter=true&repeat=true&width=435&height=45&lines=Building+ML+Systems+%26+Transformers;Full-Stack+Dev+%7C+Open+Source;Always+Learning%2C+Always+Building+%F0%9F%9A%80" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=FE428E&center=true&vCenter=true&repeat=true&width=650&height=45&lines=Building+ML+Systems+%26+Transformers;Full-Stack+Developer+%7C+Open+Source;Always+Learning%2C+Always+Building+%F0%9F%9A%80" alt="Typing SVG" />
   </a>
 </p>
 
@@ -123,7 +124,7 @@ Active open-source contributor — [View PR #125129 on first-contributions](http
 
 ---
 
-## 📊 GitHub Stats
+## 📊 Live GitHub Profile Stats
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=GopiChoudhary19&show_icons=true&theme=radical&include_all_commits=true&hide_border=true&bg_color=0d1117" alt="Gopi's GitHub Stats" width="48%" />
@@ -131,9 +132,7 @@ Active open-source contributor — [View PR #125129 on first-contributions](http
 </p>
 
 <p align="center">
-  <a href="https://git.io/streak-stats">
-    <img src="https://streak-stats.demolab.com?user=GopiChoudhary19&theme=radical&hide_border=true&background=0D1117" alt="GitHub Streak" width="70%" />
-  </a>
+  <img src="./streak-stats.svg" alt="GitHub Streak" width="70%" />
 </p>
 
 ---
@@ -157,8 +156,3 @@ Active open-source contributor — [View PR #125129 on first-contributions](http
   <img src="https://img.shields.io/badge/India-FF9933?style=for-the-badge" alt="Location" />
   <img src="https://img.shields.io/badge/Status-Open_to_Collaborations-00c853?style=for-the-badge&logo=github&logoColor=white" alt="Status" />
 </p>
-
----
-
-<!-- Footer Banner -->
-![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=120&section=footer)
