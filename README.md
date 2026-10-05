@@ -1,8 +1,9 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:fe428e&height=220&section=header&text=Gopi%20Choudhary&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Machine%20Learning%20%26%20AI%20Developer%20%7C%20CSE%20@%20NIT%20Sikkim&descSize=18&descColor=a9fef7&descAlignY=55" width="100%" />
+<!-- Header Banner -->
+![header](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=200&section=header&text=Gopi%20Choudhary&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=35&desc=Machine%20Learning%20%26%20AI%20Developer%20%7C%20CSE%20%40%20NIT%20Sikkim&descSize=16&descColor=ffffff&descAlignY=55)
 
 <p align="center">
   <a href="https://github.com/GopiChoudhary19">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=22&pause=1000&color=FE428E&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Building+ML+Systems+%26+Transformer+Architectures;Full-Stack+Developer+%7C+Open+Source+Contributor;Always+Learning%2C+Always+Building+%F0%9F%9A%80" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&pause=1000&color=FE428E&center=true&vCenter=true&repeat=true&width=435&height=45&lines=Building+ML+Systems+%26+Transformers;Full-Stack+Dev+%7C+Open+Source;Always+Learning%2C+Always+Building+%F0%9F%9A%80" alt="Typing SVG" />
   </a>
 </p>
 
@@ -130,19 +131,9 @@ Active open-source contributor — [View PR #125129 on first-contributions](http
 </p>
 
 <p align="center">
-  <img src="https://streak-stats.demolab.com/?user=GopiChoudhary19&theme=radical&hide_border=true&background=0d1117" alt="GitHub Streak" width="70%" />
-</p>
-
-<p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=GopiChoudhary19&theme=radical&no-frame=true&no-bg=true&column=7&margin-w=5" alt="GitHub Trophies" width="90%" />
-</p>
-
----
-
-## 📈 Contribution Graph
-
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=GopiChoudhary19&theme=redical&hide_border=true&bg_color=0d1117&color=fe428e&line=a9fef7&point=fe428e" alt="Contribution Graph" width="95%" />
+  <a href="https://git.io/streak-stats">
+    <img src="https://streak-stats.demolab.com?user=GopiChoudhary19&theme=radical&hide_border=true&background=0D1117" alt="GitHub Streak" width="70%" />
+  </a>
 </p>
 
 ---
@@ -151,24 +142,23 @@ Active open-source contributor — [View PR #125129 on first-contributions](http
 
 <p align="center">
   <a href="mailto:gopigkc1910@gmail.com">
-    <img src="https://img.shields.io/badge/📧_Email_Me-gopigkc1910@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
+    <img src="https://img.shields.io/badge/Email_Me-gopigkc1910%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://github.com/GopiChoudhary19">
-    <img src="https://img.shields.io/badge/🐙_Follow_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+    <img src="https://img.shields.io/badge/Follow_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
   <a href="https://www.linkedin.com/in/gopi-choudhary/">
-    <img src="https://img.shields.io/badge/💼_Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+    <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/🎓_NIT_Sikkim-CSE-009688?style=for-the-badge" alt="Institution" />
-  <img src="https://img.shields.io/badge/📍_India-FF9933?style=for-the-badge" alt="Location" />
+  <img src="https://img.shields.io/badge/NIT_Sikkim-CSE-009688?style=for-the-badge" alt="Institution" />
+  <img src="https://img.shields.io/badge/India-FF9933?style=for-the-badge" alt="Location" />
   <img src="https://img.shields.io/badge/Status-Open_to_Collaborations-00c853?style=for-the-badge&logo=github&logoColor=white" alt="Status" />
 </p>
 
 ---
 
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0d1117,50:1a1b27,100:fe428e&height=120&section=footer" width="100%" />
-</p>
+<!-- Footer Banner -->
+![footer](https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=12&height=120&section=footer)
