@@ -24,13 +24,17 @@ name: Gopi Choudhary
 role: Machine Learning & AI Developer
 institution: National Institute of Technology (NIT) Sikkim
 location: India 🇮🇳
+focus:
+  - Retrieval & RAG systems (hybrid search, reranking, QA)
+  - Applied ML with honest evaluation (CV, calibration, cost-aware decisions)
+  - Deep learning for vision and language (PyTorch)
 interests:
   - Transformer Architectures & LLM Fine-Tuning
   - ML Systems & MLOps
   - Full-Stack Web Development
   - Open Source Contributions
 currently_learning: Advanced Deep Learning & Distributed Systems
-open_to: Collaborations, Research, and Internship Opportunities
+open_to: ML / AI Engineer and Software Engineer internships & full-time roles
 ```
 
 ---
@@ -50,6 +54,8 @@ open_to: Collaborations, Research, and Internship Opportunities
 ![Hugging Face](https://img.shields.io/badge/Hugging%20Face-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 ![Transformers](https://img.shields.io/badge/Transformers-8A2BE2?style=for-the-badge&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
+![LightGBM](https://img.shields.io/badge/LightGBM-02569B?style=for-the-badge&logoColor=white)
+![Sentence Transformers](https://img.shields.io/badge/Sentence--Transformers-5A67D8?style=for-the-badge&logoColor=white)
 ![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
 ![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
 
@@ -70,31 +76,23 @@ open_to: Collaborations, Research, and Internship Opportunities
 
 ---
 
-## 🌟 Featured Projects
+## 🤖 Machine Learning Projects
+
+Each project is a runnable repo with tests, CI and results measured on a held-out set.
+
+| Project | Problem | Approach | Result |
+|---|---|---|---|
+| 🔎 [**hybrid-rag-qa**](https://github.com/GopiChoudhary19/hybrid-rag-qa) | Open-domain QA over 2,067 Wikipedia passages | BM25 from scratch + dense retrieval, rank fusion, cross-encoder rerank, extractive reader | Recall@1 **0.74 → 0.88** with reranking; end-to-end **78.3 F1** |
+| 💳 [**credit-risk-scoring**](https://github.com/GopiChoudhary19/credit-risk-scoring) | Loan approval where a default costs 5x a rejection | Calibrated LogReg / LightGBM pipelines, threshold tuned on out-of-fold expected cost | Cost per applicant **0.835 → 0.545** vs default threshold; ROC-AUC **0.81** |
+| 👕 [**fashion-cnn-gradcam**](https://github.com/GopiChoudhary19/fashion-cnn-gradcam) | Clothing image classification | Residual CNN from scratch, One-Cycle + label smoothing, Grad-CAM error analysis | **92.8%** test accuracy with 392K params |
+| 🧠 [**mini-gpt-from-scratch**](https://github.com/GopiChoudhary19/mini-gpt-from-scratch) | Character-level language modelling | Decoder-only Transformer in PyTorch | Causal self-attention, AdamW + cosine decay |
+| ⚙️ [**ml-model-serving-api**](https://github.com/GopiChoudhary19/ml-model-serving-api) | Serving models in production | FastAPI + Pydantic + Docker | Containerised inference API with tests |
+
+---
+
+## 🌟 More Projects
 
 <table>
-<tr>
-<td width="50%">
-
-### 🧠 [mini-gpt-from-scratch](https://github.com/GopiChoudhary19/mini-gpt-from-scratch)
-> **Original PyTorch implementation of Decoder-Only Transformer (GPT) Architecture**
-
-🔹 Causal Multi-Head Self-Attention, Positional Encoding, GELU feedforward blocks  
-🔹 AdamW optimizer with cosine decay scheduling  
-🔹 **Tech:** `PyTorch` `Python` `NumPy`
-
-</td>
-<td width="50%">
-
-### ⚙️ [ml-model-serving-api](https://github.com/GopiChoudhary19/ml-model-serving-api)
-> **Production-grade, containerized REST API for real-time model inference**
-
-🔹 FastAPI routing with Pydantic request/response validation  
-🔹 PyTorch inference pipeline with `pytest` test suite  
-🔹 **Tech:** `FastAPI` `PyTorch` `Docker` `Pydantic`
-
-</td>
-</tr>
 <tr>
 <td width="50%">
 
