@@ -9,9 +9,11 @@
 </p>
 
 <p align="center">
+  <a href="https://gopichoudhary19.github.io/"><img src="https://img.shields.io/badge/Portfolio-4F46E5?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Portfolio" /></a>
+  <a href="https://gopichoudhary19.github.io/resume.pdf"><img src="https://img.shields.io/badge/Resume-PDF-0EA5E9?style=for-the-badge&logo=adobeacrobatreader&logoColor=white" alt="Resume" /></a>
   <a href="mailto:gopigkc1910@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" /></a>
   <a href="https://github.com/GopiChoudhary19"><img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" /></a>
-  <a href="https://www.linkedin.com/in/gopi-choudhary/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+  <a href="https://www.linkedin.com/in/gopi19choudhary/"><img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
   <img src="https://komarev.com/ghpvc/?username=GopiChoudhary19&style=for-the-badge&color=fe428e&label=Profile+Views" alt="Profile Views" />
 </p>
 
@@ -144,7 +146,7 @@ Active open-source contributor — [View PR #125129 on first-contributions](http
   <a href="https://github.com/GopiChoudhary19">
     <img src="https://img.shields.io/badge/Follow_on_GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
   </a>
-  <a href="https://www.linkedin.com/in/gopi-choudhary/">
+  <a href="https://www.linkedin.com/in/gopi19choudhary/">
     <img src="https://img.shields.io/badge/Connect_on_LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
 </p>
