@@ -67,7 +67,6 @@ open_to: ML / AI Engineer and Software Engineer internships & full-time roles
 ![React](https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black)
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white)
-![Redis](https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white)
 
 ### ⚙️ DevOps, Cloud & Tools
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
@@ -98,8 +97,8 @@ Each project is a runnable repo with tests, CI and results measured on a held-ou
 > **Full-Stack Opportunity & Internship Discovery Platform**
 
 🔹 Next.js 15 frontend + FastAPI REST backend with auth, admin, applications and notifications routes  
-🔹 PostgreSQL relational schema with Redis caching and rate limiting  
-🔹 **Tech:** `Next.js` `TypeScript` `FastAPI` `PostgreSQL` `Redis` `Docker`
+🔹 PostgreSQL schema, passwordless OTP login, rate limiting and audit logging  
+🔹 **Tech:** `Next.js` `TypeScript` `FastAPI` `PostgreSQL` `Docker`
 
 ### 🚀 Open Source Contributions
 Active open-source contributor — [View PR #125129 on first-contributions](https://github.com/firstcontributions/first-contributions/pull/125129)
