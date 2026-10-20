@@ -94,30 +94,12 @@ Each project is a runnable repo with tests, CI and results measured on a held-ou
 
 ## 🌟 More Projects
 
-<table>
-<tr>
-<td width="50%">
-
 ### 💼 [Intern-tracker](https://github.com/GopiChoudhary19/Intern-tracker)
 > **Full-Stack Opportunity & Internship Discovery Platform**
 
-🔹 Next.js 15 frontend + FastAPI REST backend  
-🔹 PostgreSQL relational schema with Redis caching  
+🔹 Next.js 15 frontend + FastAPI REST backend with auth, admin, applications and notifications routes  
+🔹 PostgreSQL relational schema with Redis caching and rate limiting  
 🔹 **Tech:** `Next.js` `TypeScript` `FastAPI` `PostgreSQL` `Redis` `Docker`
-
-</td>
-<td width="50%">
-
-### 🎓 [EduPath](https://github.com/GopiChoudhary19/EduPath)
-> **Smart Education & Career Assessment Web Platform**
-
-🔹 Interactive student career assessment engine  
-🔹 Course-to-major mapping, college directory, AI chatbot  
-🔹 **Tech:** `React` `JavaScript` `Three.js` `CSS3`
-
-</td>
-</tr>
-</table>
 
 ### 🚀 Open Source Contributions
 Active open-source contributor — [View PR #125129 on first-contributions](https://github.com/firstcontributions/first-contributions/pull/125129)
