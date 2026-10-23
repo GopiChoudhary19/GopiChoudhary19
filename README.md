@@ -109,7 +109,7 @@ Active open-source contributor — [View PR #125129 on first-contributions](http
 
 <p align="center">
   <img src="https://github-readme-stats.vercel.app/api?username=GopiChoudhary19&show_icons=true&theme=radical&include_all_commits=true&hide_border=true&bg_color=0d1117" alt="Gopi's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=GopiChoudhary19&layout=compact&theme=radical&hide_border=true&bg_color=0d1117" alt="Top Languages" width="48%" />
+  <img src="./top-langs.svg" alt="Top Languages" width="48%" />
 </p>
 
 <p align="center">
