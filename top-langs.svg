@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 173" width="495px" height="173px">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#0e1017"/><stop offset="100%" stop-color="#141321"/></linearGradient>
+    <linearGradient id="topBorder" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#fe428e"/><stop offset="50%" stop-color="#a855f7"/><stop offset="100%" stop-color="#a9fef7"/></linearGradient>
+    <clipPath id="barClip"><rect x="25" y="58" width="445" height="8" rx="4"/></clipPath>
+  </defs>
+  <style>
+    .title { font: 700 18px -apple-system, "Segoe UI", Roboto, sans-serif; fill: #fe428e; }
+    .lang { font: 600 13px -apple-system, "Segoe UI", Roboto, sans-serif; fill: #a9fef7; }
+    .pct { fill: #8b949e; font-weight: 500; }
+  </style>
+  <rect width="495" height="173" rx="8" fill="url(#cardBg)"/>
+  <rect width="495" height="173" rx="8" fill="none" stroke="#252736" stroke-width="1.5"/>
+  <rect x="0" y="0" width="495" height="3" rx="1.5" fill="url(#topBorder)"/>
+  <text x="25" y="38" class="title">Most Used Languages</text>
+  <g clip-path="url(#barClip)"><rect x="25.00" y="58" width="214.59" height="8" fill="#3178c6"/><rect x="239.59" y="58" width="193.38" height="8" fill="#3572A5"/><rect x="432.97" y="58" width="26.79" height="8" fill="#e34c26"/><rect x="459.76" y="58" width="7.30" height="8" fill="#663399"/><rect x="467.06" y="58" width="2.46" height="8" fill="#f1e05a"/><rect x="469.51" y="58" width="0.49" height="8" fill="#384d54"/></g>
+  <circle cx="30" cy="91" r="5" fill="#3178c6"/><text x="41" y="95" class="lang">TypeScript <tspan class="pct">48.2%</tspan></text><circle cx="260" cy="91" r="5" fill="#3572A5"/><text x="271" y="95" class="lang">Python <tspan class="pct">43.5%</tspan></text><circle cx="30" cy="117" r="5" fill="#e34c26"/><text x="41" y="121" class="lang">HTML <tspan class="pct">6.0%</tspan></text><circle cx="260" cy="117" r="5" fill="#663399"/><text x="271" y="121" class="lang">CSS <tspan class="pct">1.6%</tspan></text><circle cx="30" cy="143" r="5" fill="#f1e05a"/><text x="41" y="147" class="lang">JavaScript <tspan class="pct">0.6%</tspan></text><circle cx="260" cy="143" r="5" fill="#384d54"/><text x="271" y="147" class="lang">Dockerfile <tspan class="pct">0.1%</tspan></text>
+</svg>

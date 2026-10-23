@@ -1,91 +1,97 @@
+import json
+import os
 import urllib.request
-import re
-from datetime import datetime
+from datetime import date, datetime, timedelta, timezone
 
-def generate_streak_svg():
-    url = 'https://github.com/users/GopiChoudhary19/contributions'
-    try:
-        req = urllib.request.Request(url, headers={'User-Agent': 'Mozilla/5.0'})
-        html = urllib.request.urlopen(req, timeout=15).read().decode('utf-8')
-    except Exception as e:
-        print(f"Error fetching contributions: {e}")
-        try:
-            with open('contribs.html', encoding='utf-8') as f:
-                html = f.read()
-        except:
-            html = ""
+USER = "GopiChoudhary19"
+API = "https://api.github.com/graphql"
 
-    day_counts = {}
-    if html:
-        days_with_id = re.findall(r'id="(contribution-day-component-[^"]+)"[^>]*data-date="(\d{4}-\d{2}-\d{2})"', html)
-        if not days_with_id:
-            days_with_id = re.findall(r'data-date="(\d{4}-\d{2}-\d{2})"[^>]*id="(contribution-day-component-[^"]+)"', html)
-            days_with_id = [(cid, dt) for dt, cid in days_with_id]
 
-        tip_map = {}
-        for m in re.finditer(r'for="(contribution-day-component-[^"]+)"[^>]*>([^<]+)</tool-tip>', html):
-            cid, txt = m.group(1), m.group(2)
-            c_match = re.search(r'(\d+)\s+contribution', txt)
-            tip_map[cid] = int(c_match.group(1)) if c_match else 0
+def gql(query, variables):
+    token = os.environ["GITHUB_TOKEN"]
+    body = json.dumps({"query": query, "variables": variables}).encode()
+    req = urllib.request.Request(API, data=body, headers={"Authorization": f"bearer {token}", "User-Agent": USER})
+    data = json.load(urllib.request.urlopen(req, timeout=30))
+    if data.get("errors"):
+        raise RuntimeError(data["errors"])
+    return data["data"]
 
-        for cid, dt in days_with_id:
-            day_counts[dt] = tip_map.get(cid, 0)
 
-    sorted_dates = sorted(day_counts.keys())
-    total_contribs = sum(day_counts.values()) if day_counts else 100
+def contribution_days():
+    created = gql("query($u:String!){user(login:$u){createdAt}}", {"u": USER})["user"]["createdAt"]
+    start = datetime.fromisoformat(created.replace("Z", "+00:00"))
+    now = datetime.now(timezone.utc)
+    q = """query($u:String!,$f:DateTime!,$t:DateTime!){user(login:$u){contributionsCollection(from:$f,to:$t){
+      contributionCalendar{weeks{contributionDays{date contributionCount}}}}}}"""
+    days = {}
+    while start < now:
+        stop = min(start + timedelta(days=365), now)
+        cal = gql(q, {"u": USER, "f": start.isoformat(), "t": stop.isoformat()})
+        for w in cal["user"]["contributionsCollection"]["contributionCalendar"]["weeks"]:
+            for d in w["contributionDays"]:
+                days[d["date"]] = d["contributionCount"]
+        start = stop
+    today = now.date().isoformat()
+    return {k: v for k, v in days.items() if k <= today}
 
-    max_streak = 0
-    longest_start, longest_end, temp_start = None, None, None
-    streak = 0
-    for d in sorted_dates:
+
+def top_languages(n=6):
+    q = """query($u:String!){user(login:$u){repositories(first:100,ownerAffiliations:OWNER,isFork:false,privacy:PUBLIC){nodes{
+      name languages(first:10,orderBy:{field:SIZE,direction:DESC}){edges{size node{name color}}}}}}}"""
+    totals, colors = {}, {}
+    for repo in gql(q, {"u": USER})["user"]["repositories"]["nodes"]:
+        if repo["name"] == USER:
+            continue
+        for e in repo["languages"]["edges"]:
+            name = e["node"]["name"]
+            totals[name] = totals.get(name, 0) + e["size"]
+            colors[name] = e["node"]["color"] or "#8b949e"
+    ranked = sorted(totals.items(), key=lambda kv: -kv[1])[:n]
+    s = sum(v for _, v in ranked) or 1
+    return [(k, v / s * 100, colors[k]) for k, v in ranked]
+
+
+def streaks(day_counts):
+    dates = sorted(day_counts)
+    longest, run, run_start, longest_span = 0, 0, None, (None, None)
+    for d in dates:
         if day_counts[d] > 0:
-            if streak == 0:
-                temp_start = d
-            streak += 1
-            if streak > max_streak:
-                max_streak = streak
-                longest_start = temp_start
-                longest_end = d
+            run_start = d if run == 0 else run_start
+            run += 1
+            if run > longest:
+                longest, longest_span = run, (run_start, d)
         else:
-            streak = 0
+            run = 0
+    # today with zero contributions does not break the current streak yet
+    rev = dates[::-1]
+    if rev and day_counts[rev[0]] == 0:
+        rev = rev[1:]
+    cur, cur_start, cur_end = 0, None, None
+    for d in rev:
+        if day_counts[d] == 0:
+            break
+        cur_end = cur_end or d
+        cur_start = d
+        cur += 1
+    return cur, (cur_start, cur_end), longest, longest_span
 
-    rev_dates = sorted(sorted_dates, reverse=True)
-    curr_streak_days = 0
-    cur_start, cur_end = None, None
-    for d in rev_dates:
-        if day_counts[d] > 0:
-            if curr_streak_days == 0:
-                cur_end = d
-            curr_streak_days += 1
-            cur_start = d
-        else:
-            if curr_streak_days > 0:
-                break
-            if sorted_dates and d == sorted_dates[-1]:
-                continue
-            else:
-                break
 
-    if total_contribs == 0:
-        total_contribs = 100
-        curr_streak_days = 3
-        max_streak = 7
-        cur_start, cur_end = "2026-10-03", "2026-10-05"
-        longest_start, longest_end = "2026-03-27", "2026-04-02"
+def fmt_date(dt_str, year=True):
+    d = datetime.strptime(dt_str, "%Y-%m-%d")
+    return d.strftime("%b %d, %Y") if year else d.strftime("%b %d")
 
-    def fmt_date(dt_str, year=True):
-        if not dt_str:
-            return ""
-        try:
-            d = datetime.strptime(dt_str, '%Y-%m-%d')
-            return d.strftime('%b %d, %Y') if year else d.strftime('%b %d')
-        except:
-            return dt_str
 
-    first_active = [d for d in sorted_dates if day_counts.get(d, 0) > 0]
-    total_range = f"{fmt_date(first_active[0] if first_active else '2026-03-27')} - Present"
-    cur_range = f"{fmt_date(cur_start, False)} - {fmt_date(cur_end, False)}" if cur_start else "Oct 03 - Oct 05"
-    longest_range = f"{fmt_date(longest_start, False)} - {fmt_date(longest_end, False)}" if longest_start else "Mar 27 - Apr 02"
+def span(a, b):
+    return f"{fmt_date(a, False)} - {fmt_date(b, False)}" if a else "No active streak"
+
+
+def generate_streak_svg(day_counts):
+    total_contribs = sum(day_counts.values())
+    curr_streak_days, (cur_start, cur_end), max_streak, (longest_start, longest_end) = streaks(day_counts)
+    first_active = [d for d in sorted(day_counts) if day_counts[d] > 0]
+    total_range = f"{fmt_date(first_active[0])} - Present" if first_active else "No contributions yet"
+    cur_range = span(cur_start, cur_end)
+    longest_range = span(longest_start, longest_end)
 
     svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 195" width="495px" height="195px">
   <defs>
@@ -187,10 +193,42 @@ def generate_streak_svg():
   </g>
 </svg>'''
 
-    out_path = r'c:\Users\gopig\OneDrive\Desktop\Java\GopiChoudhary19\streak-stats.svg'
-    with open(out_path, 'w', encoding='utf-8') as f:
+    with open("streak-stats.svg", "w", encoding="utf-8") as f:
         f.write(svg)
-    print(f"streak-stats.svg generated successfully at {out_path}")
 
-if __name__ == '__main__':
-    generate_streak_svg()
+
+def generate_langs_svg(langs):
+    rows, bar, x = [], [], 25.0
+    for i, (name, pct, color) in enumerate(langs):
+        w = 445 * pct / 100
+        bar.append(f'<rect x="{x:.2f}" y="58" width="{w:.2f}" height="8" fill="{color}"/>')
+        x += w
+        cx, cy = 25 + (i % 2) * 230, 95 + (i // 2) * 26
+        rows.append(f'<circle cx="{cx + 5}" cy="{cy - 4}" r="5" fill="{color}"/>'
+                    f'<text x="{cx + 16}" y="{cy}" class="lang">{name} <tspan class="pct">{pct:.1f}%</tspan></text>')
+    h = 95 + ((len(langs) + 1) // 2) * 26
+    svg = f'''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 495 {h}" width="495px" height="{h}px">
+  <defs>
+    <linearGradient id="cardBg" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" stop-color="#0e1017"/><stop offset="100%" stop-color="#141321"/></linearGradient>
+    <linearGradient id="topBorder" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" stop-color="#fe428e"/><stop offset="50%" stop-color="#a855f7"/><stop offset="100%" stop-color="#a9fef7"/></linearGradient>
+    <clipPath id="barClip"><rect x="25" y="58" width="445" height="8" rx="4"/></clipPath>
+  </defs>
+  <style>
+    .title {{ font: 700 18px -apple-system, "Segoe UI", Roboto, sans-serif; fill: #fe428e; }}
+    .lang {{ font: 600 13px -apple-system, "Segoe UI", Roboto, sans-serif; fill: #a9fef7; }}
+    .pct {{ fill: #8b949e; font-weight: 500; }}
+  </style>
+  <rect width="495" height="{h}" rx="8" fill="url(#cardBg)"/>
+  <rect width="495" height="{h}" rx="8" fill="none" stroke="#252736" stroke-width="1.5"/>
+  <rect x="0" y="0" width="495" height="3" rx="1.5" fill="url(#topBorder)"/>
+  <text x="25" y="38" class="title">Most Used Languages</text>
+  <g clip-path="url(#barClip)">{"".join(bar)}</g>
+  {"".join(rows)}
+</svg>'''
+    with open("top-langs.svg", "w", encoding="utf-8") as f:
+        f.write(svg)
+
+
+if __name__ == "__main__":
+    generate_streak_svg(contribution_days())
+    generate_langs_svg(top_languages())
