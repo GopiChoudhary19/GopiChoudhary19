@@ -4,7 +4,7 @@
 
 <p align="center">
   <a href="https://github.com/GopiChoudhary19">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=FE428E&center=true&vCenter=true&repeat=true&width=650&height=45&lines=Building+ML+Systems+%26+Transformers;Full-Stack+Developer+%7C+Open+Source;Always+Learning%2C+Always+Building+%F0%9F%9A%80" alt="Typing SVG" />
+    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=18&pause=1000&color=FE428E&center=true&vCenter=true&repeat=true&width=650&height=45&lines=Software+Engineer+%7C+Backend+%26+Full-Stack;FastAPI+%C2%B7+Next.js+%C2%B7+PostgreSQL+%C2%B7+PyTorch;Building+tested%2C+measured+systems" alt="Typing SVG" />
   </a>
 </p>
 
@@ -23,20 +23,21 @@
 
 ```yaml
 name: Gopi Choudhary
-role: Machine Learning & AI Developer
+role: Software Engineer (backend & full-stack) with an ML focus
 institution: National Institute of Technology (NIT) Sikkim
 location: India 🇮🇳
 focus:
+  - Backend APIs and full-stack apps (FastAPI, Next.js, PostgreSQL)
+  - Testing, CI and production hygiene (pytest, GitHub Actions, Docker)
   - Retrieval & RAG systems (hybrid search, reranking, QA)
   - Applied ML with honest evaluation (CV, calibration, cost-aware decisions)
-  - Deep learning for vision and language (PyTorch)
 interests:
   - Transformer Architectures & LLM Fine-Tuning
   - ML Systems & MLOps
   - Full-Stack Web Development
   - Open Source Contributions
 currently_learning: Advanced Deep Learning & Distributed Systems
-open_to: ML / AI Engineer and Software Engineer internships & full-time roles
+open_to: Software Engineer internships (backend / full-stack) and ML engineering roles
 ```
 
 ---
@@ -77,6 +78,22 @@ open_to: ML / AI Engineer and Software Engineer internships & full-time roles
 
 ---
 
+## ⭐ Featured: Intern-tracker
+
+**[Intern-tracker](https://github.com/GopiChoudhary19/Intern-tracker)** - a full-stack platform for students to discover and track internships, hackathons and scholarships.
+
+<p align="center">
+  <a href="https://github.com/GopiChoudhary19/Intern-tracker"><img src="https://raw.githubusercontent.com/GopiChoudhary19/Intern-tracker/main/docs/screenshots/dashboard.jpg" width="80%" alt="Intern-tracker dashboard" /></a>
+</p>
+
+- **Backend:** FastAPI + SQLAlchemy 2 + PostgreSQL, ten routers (auth, opportunities, applications, saved searches, admin ...) under `/api/v1`
+- **Auth & security:** passwordless email OTP (hashed, expiring), session tokens, per-identifier rate limiting, audit logging, security headers
+- **Frontend:** Next.js 14 + TypeScript + Tailwind - dashboard with an application pipeline, filterable opportunity feed, compare view, admin tools
+- **Quality:** pytest API suite and Ruff in GitHub Actions; a demo mode runs the whole API on an in-memory store with no database
+- **Tech:** `Next.js` `TypeScript` `FastAPI` `PostgreSQL` `SQLAlchemy` `Docker` `GitHub Actions`
+
+---
+
 ## 🤖 Machine Learning Projects
 
 Each project is a runnable repo with tests, CI and results measured on a held-out set.
@@ -91,17 +108,10 @@ Each project is a runnable repo with tests, CI and results measured on a held-ou
 
 ---
 
-## 🌟 More Projects
+## 🌟 More
 
-### 💼 [Intern-tracker](https://github.com/GopiChoudhary19/Intern-tracker)
-> **Full-Stack Opportunity & Internship Discovery Platform**
-
-🔹 Next.js 15 frontend + FastAPI REST backend with auth, admin, applications and notifications routes  
-🔹 PostgreSQL schema, passwordless OTP login, rate limiting and audit logging  
-🔹 **Tech:** `Next.js` `TypeScript` `FastAPI` `PostgreSQL` `Docker`
-
-### 🚀 Open Source Contributions
-Active open-source contributor — [View PR #125129 on first-contributions](https://github.com/firstcontributions/first-contributions/pull/125129)
+- 🧰 [**ml-eval-tools**](https://github.com/GopiChoudhary19/ml-eval-tools) - CLI utilities for checking whether a model change is a real improvement: paired per-row tests, blend checks, an experiment ledger
+- 🚀 **Open source:** first merged PR - [firstcontributions/first-contributions#125129](https://github.com/firstcontributions/first-contributions/pull/125129)
 
 ---
 
