@@ -102,7 +102,7 @@ Each project is a runnable repo with tests, CI and results measured on a held-ou
 |---|---|---|---|
 | 🔎 [**hybrid-rag-qa**](https://github.com/GopiChoudhary19/hybrid-rag-qa) | Open-domain QA over 2,067 Wikipedia passages | BM25 from scratch + dense retrieval, rank fusion, cross-encoder rerank, extractive reader | Recall@1 **0.74 → 0.88** with reranking; end-to-end **78.3 F1** |
 | 💳 [**credit-risk-scoring**](https://github.com/GopiChoudhary19/credit-risk-scoring) | Loan approval where a default costs 5x a rejection | Calibrated LogReg / LightGBM pipelines, threshold tuned on out-of-fold expected cost | Cost per applicant **0.835 → 0.545** vs default threshold; ROC-AUC **0.81** |
-| 👕 [**fashion-cnn-gradcam**](https://github.com/GopiChoudhary19/fashion-cnn-gradcam) | Clothing image classification | Residual CNN from scratch, One-Cycle + label smoothing, Grad-CAM error analysis | **92.8%** test accuracy with 392K params |
+| 👕 [**fashion-cnn-gradcam**](https://github.com/GopiChoudhary19/fashion-cnn-gradcam) | Clothing image classification | Residual CNN from scratch, One-Cycle + label smoothing, Grad-CAM error analysis, CLI with heatmap output | **93.1%** test accuracy (flip TTA) with 392K params |
 | 🧠 [**mini-gpt-from-scratch**](https://github.com/GopiChoudhary19/mini-gpt-from-scratch) | Character-level language modelling | Decoder-only Transformer in PyTorch | Causal self-attention, AdamW + cosine decay |
 | ⚙️ [**ml-model-serving-api**](https://github.com/GopiChoudhary19/ml-model-serving-api) | Serving models in production | FastAPI + Pydantic + Docker | Containerised inference API with tests |
 
