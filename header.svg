@@ -69,12 +69,12 @@
   <g transform="translate(60, 42)">
     <rect width="148" height="24" rx="12" fill="#fe428e" fill-opacity="0.15" stroke="#fe428e" stroke-opacity="0.4" stroke-width="1"/>
     <circle cx="14" cy="12" r="4" fill="#fe428e"/>
-    <text x="26" y="16" class="tag">AI &amp; ML SYSTEMS</text>
+    <text x="26" y="16" class="tag">BACKEND &amp; ML</text>
   </g>
 
   <!-- Content -->
   <text x="60" y="112" class="title">Gopi Choudhary</text>
-  <text x="60" y="148" class="subtitle">Machine Learning &amp; AI Developer <tspan fill="#fe428e">|</tspan> CSE @ NIT Sikkim</text>
+  <text x="60" y="148" class="subtitle">Software Engineer, Backend &amp; ML <tspan fill="#fe428e">|</tspan> CSE @ NIT Sikkim</text>
 
   <!-- Tech Dots / Matrix Pattern Right Side -->
   <g transform="translate(760, 45)" opacity="0.4">
