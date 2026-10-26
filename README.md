@@ -110,6 +110,7 @@ Each project is a runnable repo with tests, CI and results measured on a held-ou
 
 ## 🌟 More
 
+- ☕ [**Stego**](https://github.com/GopiChoudhary19/Stego) - food pre-ordering platform: Spring Boot 3 / Java 17 backend with JWT auth, Stripe payments and signed webhooks, WebSocket order updates, Flyway + PostgreSQL, and a Next.js frontend; tests and Docker builds in CI
 - 🧰 [**ml-eval-tools**](https://github.com/GopiChoudhary19/ml-eval-tools) - CLI utilities for checking whether a model change is a real improvement: paired per-row tests, blend checks, an experiment ledger
 - 🚀 **Open source:** [lightgbm-org/LightGBM#7504](https://github.com/lightgbm-org/LightGBM/pull/7504) (open, in review) - test coverage for early stopping in `lgb.cv()`; first merged PR - [firstcontributions/first-contributions#125129](https://github.com/firstcontributions/first-contributions/pull/125129)
 
