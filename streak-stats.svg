@@ -65,7 +65,7 @@
     <!-- Contribution Layers Icon -->
     <path d="M -8,52 L 0,47 L 8,52 L 0,57 Z M -8,56 L 0,61 L 8,56 M -8,60 L 0,65 L 8,60" fill="none" stroke="#fe428e" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/>
 
-    <text x="0" y="105" text-anchor="middle" class="val">304</text>
+    <text x="0" y="105" text-anchor="middle" class="val">350</text>
     <text x="0" y="132" text-anchor="middle" class="label">Total Contributions</text>
     <text x="0" y="156" text-anchor="middle" class="sub">Aug 18, 2025 - Present</text>
   </g>
@@ -79,9 +79,9 @@
     <path d="M 0,40 C 3,45 6,48 6,52 C 6,57 2,61 -1,61 C -4,61 -7,58 -7,54 C -7,49 -4,46 -3,43 C -1,46 0,49 1,51 C 2,49 1,44 0,40 Z" fill="#fe428e"/>
     <path d="M 0,49 C 1,51 2,53 2,55 C 2,57 0,59 -1,59 C -2,59 -4,58 -4,56 C -4,54 -2,52 -1,51 Z" fill="#a9fef7"/>
 
-    <text x="0" y="105" text-anchor="middle" class="val">0 Days</text>
+    <text x="0" y="105" text-anchor="middle" class="val">1 Days</text>
     <text x="0" y="132" text-anchor="middle" class="label">Current Streak</text>
-    <text x="0" y="156" text-anchor="middle" class="sub">No active streak</text>
+    <text x="0" y="156" text-anchor="middle" class="sub">Oct 30 - Oct 30</text>
   </g>
 
   <!-- Right Column: Longest Streak -->
