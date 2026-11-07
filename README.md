@@ -17,7 +17,7 @@ CSE undergraduate at NIT Sikkim. I build backend and full-stack apps (FastAPI, N
 
 ## Featured: Intern-tracker
 
-**[Intern-tracker](https://github.com/GopiChoudhary19/Intern-tracker)** - a full-stack platform for students to find and track internships, hackathons and scholarships.
+**[Intern-tracker](https://github.com/GopiChoudhary19/Intern-tracker)** - a full-stack platform for students to find and track internships, hackathons and scholarships. **[Live demo](https://intern-tracker-web.onrender.com)** (sign in with code `000000`; the first load can take ~50 s).
 
 <p align="center">
   <a href="https://github.com/GopiChoudhary19/Intern-tracker"><img src="https://raw.githubusercontent.com/GopiChoudhary19/Intern-tracker/main/docs/screenshots/dashboard.jpg" width="80%" alt="Intern-tracker dashboard" /></a>
